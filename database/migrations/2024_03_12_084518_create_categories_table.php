@@ -11,8 +11,8 @@ return new class extends Migration
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('url', 2);
-            $table->boolean('is_visible');
+            $table->string('url');
+            $table->boolean('is_visible')->default(true);
             $table->timestamps();
         });
     }

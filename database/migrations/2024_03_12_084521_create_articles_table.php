@@ -17,10 +17,11 @@ return new class extends Migration
             $table->string('subtitle_ua');
             $table->string('subtitle_pl');
             $table->string('subtitle_en');
-            $table->string('description_ua');
-            $table->string('description_pl');
-            $table->string('description_en');
+            $table->text('description_ua');
+            $table->text('description_pl');
+            $table->text('description_en');
             $table->string('slug');
+            $table->string('image');
             $table->boolean('is_published');
             $table->datetime('publication_date');
             $table->timestamps();

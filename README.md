@@ -9,15 +9,15 @@ php artisan serv
 ```
 
 ```bash
-php artisan make:model Category -msRc
+php artisan make:model Category -msfRc
 ```
 
 ```bash
-php artisan make:model Article -msRrc
+php artisan make:model Article -msfRrc
 ```
 
 ```bash
-php artisan migrate
+php artisan migrate:refresh --seed
 ```
 
 ### License

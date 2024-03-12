@@ -20,6 +20,7 @@ class Article extends Model
         'description_pl',
         'description_en',
         'slug',
+        'image',
         'is_published',
         'publication_date',
     ];
